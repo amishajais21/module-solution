@@ -1,0 +1,115 @@
+h1{
+	margin: 30px;
+	color: white;
+	font-weight: bold;
+	font-size: 40px;
+}
+@media (min-width: 992px){
+	.row{
+		width: 30%;
+		float: left;
+
+	}
+	#first, #third{
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+	}
+}
+.container{
+	width:100%;
+	
+
+} 
+		
+@media(min-width: 768px) and (max-width: 991px){
+	#first, #second{
+		width:45%;
+		float:left;
+		margin:2.5%;
+	}
+	#third{
+		
+width:95%;
+		float:left;
+		margin:2.5%;
+	}
+}
+@media(max-width: 767px){
+.row{
+	width: 100%;
+	margin-left: 2.5px;
+	margin-top:10px;
+
+
+}
+}
+#first, #second, #third{
+	border:2px solid black;
+	box-sizing: border-box;
+	background-color: pink;
+	
+}
+#first h2{
+	
+	
+	margin-top: 0px;
+  
+    font-weight: bold;
+    font-family: cursive;
+   color:brown;
+   padding-top: 20px;
+
+	
+}
+#second h2{
+	
+	margin-top: 0px;
+    
+    color:brown;
+    font-weight: bold;
+    font-family: cursive;
+    padding-top: 20px;
+   
+
+}
+#third h2{
+	
+	padding-top: 20px;
+	color: brown;
+	margin-top: 0px;
+   
+    font-weight: bold;
+    font-family: cursive;
+    
+  
+
+
+	
+}
+p{
+	padding:10px;
+	padding-top: 20px
+}
+body{
+	font-family: cursive;
+}
+
+p a{
+	text-decoration: underline;
+}
+body{
+	background: indianred;
+}
+#start{
+	background: midnightblue;
+	border:none;
+	
+}
+.navbar-default .navbar-brand {
+	color:white;
+	font-weight: bold;
+	font-size:35px;
+}
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
