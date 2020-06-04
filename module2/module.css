@@ -1,0 +1,97 @@
+h1{
+	text-align: center;
+	margin: 30px;
+}
+@media (min-width: 992px){
+	.row{
+	width:30%;
+	float:left;
+		
+
+	}
+	#first, #third{
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+	}
+}
+.container{
+	width:100%;
+	
+
+} 
+		
+@media(min-width: 768px) and (max-width: 991px){
+	#first, #second{
+		width:45%;
+		float:left;
+		margin:2.5%;
+	}
+	#third{
+		
+width:95%;
+		float:left;
+		margin:2.5%;
+	}
+}
+@media(max-width: 767px){
+.row{
+	width: 100%;
+	float: center;
+	margin-top:10px;
+
+}
+}
+.row{
+	border:2px solid black;
+	box-sizing: border-box;
+	background-color: gray;
+	
+}
+#first h2{
+	background: pink;
+	width: 100px;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	margin-top: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+    float: right;
+
+	
+}
+#second h2{
+	background: brown;
+	width: 100px;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	margin-top: 0px;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-family: cursive;
+    float:right;
+
+}
+#third h2{
+	background: yellow;
+	width: 100px;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	margin-top: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+    
+    float: right;
+
+
+	
+}
+p{
+	padding:10px;
+	padding-top: 40px
+}
+body{
+	font-family: cursive;
+}
